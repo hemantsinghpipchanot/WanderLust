@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const Review = require("./review.js");
-const wrapAsync = require("../util/wrapAsync.js");
+const wrapAsync = require("../utils/wrapAsync.js");
 const listingSchema = new Schema({
   title: {
     type: String,
