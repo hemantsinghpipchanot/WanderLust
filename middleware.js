@@ -1,4 +1,4 @@
-const ExpressError = require("./utils/ExpressError.js");
+const ExpressError = require("./util/ExpressError.js");
 const { listingSchema, reviewShema } = require("./Schema.js");
 const Listing = require("./models/Listing.js");
 module.exports.isLoggedIn = (req, res, next) => {
