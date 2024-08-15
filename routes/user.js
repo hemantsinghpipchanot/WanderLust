@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const User = require("../model/user.js");
+const User = require("../models/user.js");
 const wrapAsync = require("../utils/wrapAsync.js");
 const app = require("express-sesssion");
 const passport = require("passport");

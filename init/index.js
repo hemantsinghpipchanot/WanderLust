@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const initData = require("./data.js");
 const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
-const Listing = require("../model/Listing.js");
+const Listing = require("../models/Listing.js");
 main()
   .then(() => {
     console.log("connected to DB");
