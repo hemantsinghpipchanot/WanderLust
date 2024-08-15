@@ -1,5 +1,5 @@
 const ExpressError = require("./utils/ExpressError.js");
-const { listingSchema, reviewShema } = require("./Schema.js");
+const { listingSchema, reviewShema } = require("./Schem.js");
 const Listing = require("./models/Listing.js");
 module.exports.isLoggedIn = (req, res, next) => {
   req.session.redirectUrl = req.originalUrl;
